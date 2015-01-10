@@ -157,6 +157,12 @@ dev.off()
 
 # 4 - make plot2.png  
 
+To get the English abbreviation for the weekdays, set the local LC_TIME variable to English.
+
+```{r}
+Sys.setlocale("LC_TIME", "English_United Kingdom")
+```
+
 Make the plot
 
 ```{r}

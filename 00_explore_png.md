@@ -203,6 +203,17 @@ dev.off()
 
 # 4 - make plot2.png  
 
+To get the English abriviations for the weekdays, set the local LC_TIME variable to English.
+
+
+```r
+Sys.setlocale("LC_TIME", "English_United Kingdom")
+```
+
+```
+## [1] "English_United Kingdom.1252"
+```
+
 Make the plot
 
 
@@ -215,7 +226,7 @@ plot(pow$DateTime, pow$Global_active_power,
 )
 ```
 
-![](00_explore_png_files/figure-html/unnamed-chunk-11-1.png) 
+![](00_explore_png_files/figure-html/unnamed-chunk-12-1.png) 
 
 Copy the result to file plot2.png file  
 (Note that the default width and height are 480)
@@ -285,7 +296,7 @@ Use the function to show the plot here
 showPlot3()
 ```
 
-![](00_explore_png_files/figure-html/unnamed-chunk-14-1.png) 
+![](00_explore_png_files/figure-html/unnamed-chunk-15-1.png) 
 
 Create plot3.png, i.e.  
 a) Open the graphics device png.  
@@ -379,7 +390,7 @@ Note, the legend here is not OK, but the one in the png is.
 showPlot4()
 ```
 
-![](00_explore_png_files/figure-html/unnamed-chunk-17-1.png) 
+![](00_explore_png_files/figure-html/unnamed-chunk-18-1.png) 
 
 Create plot4.png, i.e.  
 a) Open the graphics device png.  
