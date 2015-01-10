@@ -1,3 +1,14 @@
+## introductory remark
+
+As personal documentation I made a .Rmd file where the complete process of reading and preparing the data, and the production of the .png files is fully documented and explained. The process should be fully reproducible.   
+To understand how my R programs work I recommend you **start with a look at** [that file](00_explore_png.md) 
+
+The same results can be produced using:
+- plot0_load_data.R (to read and pre-process the data)
+- plot1.R, plot2.R, plot3.R, plot4.R (to produce plot1.png, plot2.png etc.)
+
+These files can be found in the root of this repository (as required)
+
 ## Introduction
 
 This assignment uses data from
