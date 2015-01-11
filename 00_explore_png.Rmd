@@ -14,7 +14,7 @@ output:
 # 1 - introduction
 
 Here I fully document the steps taken to produce the results of project 1 of the Johns Hopkins Coursera course Exploratory Data Analysis of January 2015.
-An description of the project can be found in the [readme.md](README.md)
+A description of the project can be found in the [readme.md](README.md)
 
  .
 
